@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Praveen V | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO (optional) -->
+  <meta name="description" content="Praveen V | Full Stack & Python Developer. Building websites and tools that help businesses grow.">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="nav">
+      <div class="logo">Praveen <span>V</span></div>
+      <ul class="nav-links">
+        <li><a href="#home">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certs</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="page">
+
+    <!-- HERO -->
+    <section id="home">
+      <div class="hero-photo-wrap">
+        <div class="hero-photo">
+          <!-- assets folder la profile.jpg vechiru -->
+          <img src="assets/profile.jpg" alt="Praveen V" loading="lazy">
+          <!-- hero-badge remove pannirukkom, image clean-a theriyum -->
+        </div>
+      </div>
+
+      <div class="hero-text">
+        <h3>Hello, I’m</h3>
+        <h1>Praveen Vetriveeran</h1>
+
+        <!-- Typing effect text -->
+        <div class="hero-role">
+          <span id="role-text"></span>
+        </div>
+
+        <p>
+          B.E Computer Science Engineering student (2025) with hands-on
+          experience in Python, data analytics, and deep learning based projects.
+          I enjoy building practical solutions with clean code and simple design.
+        </p>
+
+        <div class="hero-buttons">
+          <!-- assets la resume.pdf vechiru -->
+          <a href="assets/resume.pdf" class="btn btn-primary" download>
+            <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+          </a>
+          <a href="#contact" class="btn btn-ghost">
+            <i class="fa-regular fa-paper-plane"></i> Contact Me
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <div class="hero-meta-item">
+            <span>Location</span>
+            <strong>Kumbakonam, India</strong>
+          </div>
+          <div class="hero-meta-item">
+            <span>Current Focus</span>
+            <strong>Full Stack & Python</strong>
+          </div>
+          <div class="social-links">
+            <a href="https://linkedin.com/praveenvetri" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/Praveen" target="_blank"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT + EDUCATION -->
+    <section id="about">
+      <h2 class="section-title">About</h2>
+
+      <div class="two-col">
+        <div class="card">
+          <h3>About Me</h3>
+          <p class="about-text">
+            I’m a B.E Computer Science and Engineering student at Vels University
+            (2021–2025) with a CGPA of 7.33. My main interests are Python development,
+            data analytics, and AI/ML. I enjoy working on real-world projects like
+            fake image detection and lip-sync enhancement in videos.
+          </p>
+          <p class="about-text">
+            I like turning raw data and complex problems into simple, clear
+            solutions using code, clean UI, and automation.
+          </p>
+          <div class="about-tags">
+            <span class="chip">Computer Science</span>
+            <span class="chip">Python</span>
+            <span class="chip">Machine Learning</span>
+            <span class="chip">Deep Learning</span>
+            <span class="chip">Data Analytics</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Education</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-item-header">
+                <div class="timeline-item-title">B.E – Computer Science and Engineering</div>
+                <div class="timeline-item-year">2021 – 2025</div>
+              </div>
+              <div class="timeline-item-sub">
+                Vels University, Chennai • CGPA: 7.33
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-item-header">
+                <div class="timeline-item-title">Higher Secondary (HSC)</div>
+                <div class="timeline-item-year">2021</div>
+              </div>
+              <div class="timeline-item-sub">
+                Indira Public Hr. Sec. School • 73.36%
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-item-header">
+                <div class="timeline-item-title">SSLC</div>
+                <div class="timeline-item-year">2019</div>
+              </div>
+              <div class="timeline-item-sub">
+                Indira Public Hr.Sec. School • 63.00%
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="card">
+        <div class="skills-grid">
+          <div>
+            <h3>Technical Skills</h3>
+            <ul class="tag-list">
+              <li>Python</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Django</li>
+              <li>Flask</li>
+              <li>SQL</li>
+              <li>MongoDB</li>
+              <li>REST API</li>
+              <li>Linux</li>
+              <li>Git &amp; GitHub</li>
+              <li>Power BI</li>
+              <li>MS Office</li>
+            </ul>
+
+            <h3 style="margin-top:16px;">Soft Skills</h3>
+            <ul class="tag-list">
+              <li>Analytical Thinking</li>
+              <li>Problem Solving</li>
+              <li>Communication</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Comfort Level</h3>
+            <div class="skill-bars">
+              <div>
+                <div class="skill-bar-label">
+                  <span>Python</span><span>Advanced</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" style="width: 90%;"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="skill-bar-label">
+                  <span>HTML &amp; CSS</span><span>Intermediate</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" style="width: 80%;"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="skill-bar-label">
+                  <span>JavaScript</span><span>Intermediate</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" style="width: 70%;"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="skill-bar-label">
+                  <span>SQL &amp; Databases</span><span>Intermediate</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" style="width: 80%;"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="skill-bar-label">
+                  <span>ML &amp; AI</span><span>Intermediate</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" style="width: 75%;"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="skill-bar-label">
+                  <span>Web (Flask / Django)</span><span>Intermediate</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" style="width: 70%;"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="skill-bar-label">
+                  <span>Data Analytics / BI</span><span>Intermediate</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" style="width: 70%;"></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE + PROJECTS -->
+    <section id="experience">
+      <h2 class="section-title">Experience & Projects</h2>
+
+      <div class="list-grid">
+        <!-- EXPERIENCE -->
+        <div class="card">
+          <h3>Experience</h3>
+          <div class="timeline-item" style="margin-top:8px;">
+            <div class="timeline-item-header">
+              <div class="timeline-item-title">Data Analytics Intern – Pantech Solutions</div>
+              <div class="timeline-item-year">Internship</div>
+            </div>
+            <ul class="bullets">
+              <li>Cleaned, analyzed and visualized datasets using Python libraries like Pandas and NumPy.</li>
+              <li>Identified trends, correlations and anomalies to support data-driven decision making.</li>
+              <li>Built dashboards and reports using Excel and Power BI for non-technical stakeholders.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- PROJECTS -->
+        <div class="card" id="projects">
+          <h3>Projects</h3>
+
+          <div class="project-item" style="margin-top:8px;">
+            <div class="project-title">Lip-Align AI (Mini Project)</div>
+            <p class="about-text" style="margin-bottom:4px;">
+              Developed a generative AI model to improve lip-sync accuracy in unconstrained talking-face
+              videos using a powerful lip-sync discriminator and evaluation benchmark.
+            </p>
+            <p class="about-text" style="margin-bottom:4px;">
+              Integrated GFP-GAN to enhance resolution and realism of lip-synced videos, restoring fine facial details.
+            </p>
+            <div class="project-tech">Tech Stack: PyTorch, OpenCV, GANs</div>
+          </div>
+
+          <div class="project-item">
+            <div class="project-title">Deep Learning Based Fake Image Detection (Main Project)</div>
+            <p class="about-text" style="margin-bottom:4px;">
+              Combined metadata analysis and Error Level Analysis (ELA) to detect manipulated images
+              with high accuracy.
+            </p>
+            <p class="about-text" style="margin-bottom:4px;">
+              Implemented neural network based classification (MLP) to distinguish real vs fake images,
+              supporting digital security and forensics.
+            </p>
+            <div class="project-tech">Tech Stack: Python, OpenCV, ELA, MLP</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications">
+      <h2 class="section-title">Certifications</h2>
+
+      <div class="card">
+        <ul class="cert-list">
+          <li><strong>Python Programming</strong> – GUVI</li>
+          <li><strong>Master Data Science</strong> – GUVI</li>
+          <li><strong>AWS Cloud Fundamentals</strong> – Internshala</li>
+          <li><strong>Data Analytics</strong> – Inlustro</li>
+        </ul>
+
+        <div style="margin-top:14px;">
+          <h3>Tech Profiles</h3>
+          <div class="pill-row">
+            <span class="chip"><i class="fa-brands fa-github"></i> GitHub: Praveen</span>
+            <span class="chip"><i class="fa-brands fa-hackerrank"></i> GUVI Blog: Praveen25</span>
+          </div>
+        </div>
+
+        <div style="margin-top:14px;">
+          <h3>Languages & Interests</h3>
+          <div class="pill-row">
+            <span class="chip">Tamil</span>
+            <span class="chip">English</span>
+            <span class="chip">Photography</span>
+            <span class="chip">Video Editing</span>
+            <span class="chip">Gaming</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2 class="section-title">Contact</h2>
+
+      <div class="contact-grid">
+        <div class="card contact-info">
+          <h3>Let’s Work Together</h3>
+          <p>
+            I build simple, clean websites and tools using full stack development and Python.
+            If you’re a student, freelancer, or small business owner who wants an online presence,
+            I can help you create a website that supports your growth.
+          </p>
+          <small>
+            Let’s build something useful for your business or personal brand. 
+            You can contact me via email, phone, or the form.
+          </small>
+
+          <div class="contact-row">
+            <span><i class="fa-solid fa-envelope"></i></span>
+            <a href="mailto:praveenvetri2004@gmail.com">praveenvetri2004@gmail.com</a>
+          </div>
+          <div class="contact-row">
+            <span><i class="fa-solid fa-phone"></i></span>
+            <a href="tel:+919345378042">+91 93453 78042</a>
+          </div>
+          <div class="contact-row">
+            <span><i class="fa-brands fa-linkedin"></i></span>
+            <a href="https://linkedin.com/praveenvetri" target="_blank">linkedin.com/praveenvetri</a>
+          </div>
+        </div>
+
+        <!-- Zoho Form Card -->
+        <div class="card">
+          <h3>Send a Message</h3>
+          <p class="about-text" style="margin-bottom: 10px;">
+            Share your project idea, website requirement, or collaboration. I’ll reply by email as soon as possible.
+          </p>
+
+          <div class="zoho-form-wrapper">
+            <iframe
+              aria-label="Send a Message"
+              frameborder="0"
+              style="height:500px;width:100%;border:none;"
+              src="https://forms.zohopublic.in/praveenvetri2004gm1/form/SendaMessage/formperma/Gba0D2wKrZyRkLFbwXkNvKU9jw97dLfVdT3A86ls6j4">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Praveen V. All rights reserved.
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
